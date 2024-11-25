@@ -1,7 +1,11 @@
+#网上说的反向代理，没研究透怎么用
 gdy666/lucky
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+
 #svn
 garethflowers/svn-server:latest
-#支持指定架构
+
+#svn webui
+cym1102/svnwebui:latest
+
+#支持指定架构，这个是原文件带的，应该没用吧，有参数设置就留着了
 --platform=linux/arm64 xiaoyaliu/alist
